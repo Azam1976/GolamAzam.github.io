@@ -1,0 +1,99 @@
+@media all and (max-width: 1024px) {
+  #Container {
+    width: 720px;
+  }
+  #NavItems {
+    margin: 5px 0px 0px 0px;
+  }
+  nav {
+    padding: 0px;
+  }
+  header {
+    padding: 80px 0px 0px 0px;
+  }
+  header #HeaderContentWrapper {
+    width: 100%;
+  }
+  header #HeaderContentWrapper #HeaderContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 90vh;
+  }
+  header #HeaderContentWrapper #HeaderContent #HeaderDesc {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+  }
+  header #HeaderContentWrapper #HeaderContent #HeaderDesc h1 {
+    font-size: 1.9rem;
+  }
+  header #HeaderContentWrapper #HeaderContent #HeaderImage {
+    width: 90%;
+    margin: auto;
+    margin: 20px 0px;
+  }
+  header #HeaderContentWrapper #HeaderContent #HeaderImage img {
+    width: 100%;
+  }
+  #About #BaoutContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #About #BaoutContentWrapper #AboutImage {
+    width: 80%;
+  }
+  #About #BaoutContentWrapper #AboutDesc {
+    width: 90%;
+  }
+  #Service {
+    padding: 50px 0px;
+  }
+  #Service #ServiceContentWrapper #ServiceBox {
+    width: 45%;
+  }
+  #Skills #SkillWrapper #SingleSkills {
+    width: 20%;
+  }
+  #Projects #ProjectContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #Projects #ProjectContentWrapper #SingleProject {
+    width: 100%;
+  }
+  #Projects #ProjectContentWrapper #SingleProject #ProjectDesc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #FAQ #FaqContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  #FAQ #FaqContentWrapper #FAQS {
+    width: 100%;
+  }
+  #FAQ #FaqContentWrapper #FaqImage {
+    width: 90%;
+    margin: 0px 0px 20px 0px;
+  }
+  #Plans #PlansContentWrapper #SinglePlan {
+    width: 45%;
+    margin: 20px 0px;
+  }
+  #Plans #PlansContentWrapper #SinglePlan #PlanDesc ol {
+    width: 75%;
+  }
+  #Contact #ContactWrapper #SingleFooterContent {
+    width: 45%;
+    margin: 30px 0px;
+  }
+}
+/*# sourceMappingURL=tabresponsive.css.map */

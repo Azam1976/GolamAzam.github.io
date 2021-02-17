@@ -1,0 +1,240 @@
+@media all and (max-width: 768px) {
+  #Container {
+    width: 90vw;
+  }
+  a {
+    cursor: default;
+  }
+  nav #Bars {
+    display: block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  nav #Bars i {
+    display: block;
+    color: #e4e4e4;
+    font-size: 25px;
+  }
+  nav #NavItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50vw;
+    background: #2a2139;
+    display: none;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    z-index: 4;
+  }
+  nav #Bars:hover #NavItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 2;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  header {
+    padding: 50px 0px 20px 0px;
+  }
+  header #HeaderContentWrapper #HeaderContent {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 90vh;
+    -webkit-box-sizing: initial;
+    box-sizing: initial;
+  }
+  header #HeaderContentWrapper #HeaderContent #HeaderDesc {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+  }
+  header #HeaderContentWrapper #HeaderContent #HeaderImage {
+    width: 90%;
+    margin: auto;
+    margin: 0px 0px 10px 0px;
+  }
+  header #HeaderContentWrapper #HeaderContent #HeaderImage img {
+    width: 100%;
+  }
+  #About:hover #AboutDesc {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #About:hover #AboutImage {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #About #BaoutContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #About #BaoutContentWrapper #AboutImage {
+    width: 90%;
+    margin: 30px 0px;
+  }
+  #About #BaoutContentWrapper #AboutDesc {
+    width: 100%;
+  }
+  #Service {
+    padding: 50px 0px;
+  }
+  #Service:hover #ServiceBox {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #Service #ServiceContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #Service #ServiceContentWrapper #ServiceBox {
+    width: 85%;
+  }
+  #Skills:hover #SingleSkills {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #Skills #SkillWrapper #SingleSkills {
+    width: 30%;
+  }
+  #Projects #ProjectContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #Projects #ProjectContentWrapper #SingleProject {
+    text-align: center;
+    width: 100%;
+  }
+  #Projects #ProjectContentWrapper #SingleProject #ProjectDesc h2 {
+    font-size: 1.8rem;
+  }
+  #Projects #ProjectContentWrapper #SingleProject #ProjectDesc p a {
+    font-size: 1.5rem;
+  }
+  #FAQ:hover #FAQS {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #FAQ:hover #FaqImage {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #FAQ #FaqContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  #FAQ #FaqContentWrapper #FAQS {
+    width: 100%;
+  }
+  #FAQ #FaqContentWrapper #FaqImage {
+    width: 90%;
+    margin: 0px 0px 20px 0px;
+  }
+  #Plans #PlansContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #Plans #PlansContentWrapper #SinglePlan {
+    width: 98%;
+    margin: 20px 0px;
+  }
+  #Plans #PlansContentWrapper #SinglePlan #PlanDesc ol {
+    width: 65%;
+  }
+  #Contact {
+    padding: 100px 0px 40px 0px;
+  }
+  #Contact #ContactWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #Contact #ContactWrapper #SingleFooterContent {
+    width: 100%;
+    margin: 30px 0px;
+  }
+}
+
+@media all and (max-width: 768px) and (orientation: portrait) {
+  header {
+    padding: 70px 0px 40px 0px;
+  }
+  #HeaderImage {
+    margin: 0px 0px 30px 0px;
+    display: inline-block;
+  }
+}
+
+@media all and (max-width: 768px) and (orientation: landscape) {
+  header {
+    padding: 70px 0px 30px 0px;
+  }
+  #HeaderContent {
+    height: 70vh;
+  }
+  #HeaderImage {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) and (max-width: 640px) {
+  #Skills #SkillWrapper #SingleSkills {
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 768px) and (max-width: 350px) {
+  #Skills #SkillWrapper #SingleSkills {
+    width: 75%;
+  }
+  #Plans #PlansContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #Plans #PlansContentWrapper #SinglePlan {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  #Plans #PlansContentWrapper #SinglePlan #PlanDesc ol {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
